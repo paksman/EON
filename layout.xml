@@ -143,7 +143,7 @@
 
         <row>
                 <button text="RUSS TV1000" onTap="russtv1000" />
-                <button text="SUNDANCE TV" onTap="sundancetv" />
+                <button text="OUTDOOR CHANNEL" onTap="outdoor" />
                 <button text="FOX HD" onTap="foxhd" />
                 <button text="FOX CRIME HD" onTap="foxcrimehd" />
                 <button text="FOX MOVIES HD" onTap="foxmovieshd" />
