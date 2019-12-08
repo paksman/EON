@@ -101,7 +101,7 @@
         </row>
 
         <row>
-                <button text="TV1" onTap="tv1" />
+                <button text="O KANAL" onTap="okanal" />
                 <button text="NOVA M" onTap="novam" />
                 <button text="A1" onTap="a1" />
                 <button text="SAT" onTap="sat" />
@@ -159,7 +159,7 @@
 
         <row>
                 <button text="SHORTS" onTap="shorts" />
-                <button text="SPORT KLUB" onTap="sportklub" />
+                <button text="NOVA SPORT" onTap="novasport" />
                 <button text="SPORT KLUB1" onTap="sportklub1" />
                 <button text="SPORT KLUB2" onTap="sportklub2" />
                 <button text="SPORT KLUB3" onTap="sportklub3" />
