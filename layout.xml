@@ -48,7 +48,7 @@
                 <button text="NOVA S" onTap="ns" />
                 <button text="RTS1" onTap="rts1" />
                 <button text="PINK" onTap="pink" />
-                <button text="O2" onTap="o2" />
+                <button text="B92" onTap="b92" />
         </row>
 
         <row>
@@ -177,63 +177,62 @@
         <row>
                 <button text="SPORT KLUB9" onTap="sportklub9" />
                 <button text="SPORT KLUB10" onTap="sportklub10" />
+                <button text="SPORT KLUB" onTap="sportklub" />
                 <button text="SPORT KLUB GOLF" onTap="sportklubgolf" />
-                <button text="FIGHT CHANNEL" onTap="fightchannel" />
-                <button text="EURO SPORT1" onTap="eurosport1" />
+                <button text="FIGHT CHANNEL" onTap="fightchannel" />               
         </row>
 
         <row>
+                <button text="EURO SPORT1" onTap="eurosport1" />
                 <button text="EURO SPORT2" onTap="eurosport2" />
                 <button text="SPORT KLUB ESPORTS" onTap="sportklubesports" />
                 <button text="EXTREME" onTap="extreme" />
-                <button text="MOTORVISION" onTap="motorvision" />
-                <button text="PIKABOO" onTap="pikaboo" />
+                <button text="MOTORVISION" onTap="motorvision" />               
         </row>
 
         <row>
+                <button text="PIKABOO" onTap="pikaboo" />
                 <button text="MINIMAX" onTap="minimax" />
                 <button text="NICKELODEON" onTap="nickelodeon" />
                 <button text="DISNEY" onTap="disney" />
-                <button text="CARTOON NETWORK" onTap="cartoonnetwork" />
-                <button text="PINK KIDS" onTap="pinkkids" />
+                <button text="CARTOON NETWORK" onTap="cartoonnetwork" />               
         </row>
 
         <row>
+                <button text="PINK KIDS" onTap="pinkkids" />
                 <button text="BOOMERANG" onTap="boomerang" />
                 <button text="NICK JR" onTap="nickjr" />
                 <button text="NICKELODEON HD" onTap="nickelodeonhd" />
-                <button text="JIM JAM" onTap="jimjam" />
-                <button text="DISNEY JUNIOR" onTap="disneyjr" />
+                <button text="JIM JAM" onTap="jimjam" />               
         </row>
         </tab>
       <tab text="5">
         <row>
+                <button text="DISNEY JUNIOR" onTap="disneyjr" />
                 <button text="BABY TV" onTap="babytv" />
                 <button text="NATIONAL GEOGRAPHIC" onTap="nationalgeographic" />
                 <button text="DISCOVERY" onTap="discovery" />
-                <button text="HISTORY HD" onTap="historyhd" />
-                <button text="VIASAT EXPLORE" onTap="viasatexplore" />
+                <button text="HISTORY HD" onTap="historyhd" />               
         </row>
 
         <row>
+                <button text="VIASAT EXPLORE" onTap="viasatexplore" />
                 <button text="LR" onTap="lr" />
                 <button text="ANIMAL PLANET" onTap="animalplanet" />
                 <button text="VIASAT NATURE" onTap="viasatnature" />
-                <button text="VIASAT HISTORY" onTap="viasathistory" />
-                <button text="ID" onTap="id" />
+                <button text="VIASAT HISTORY" onTap="viasathistory" />               
         </row>
 
         <row>
+                <button text="ID" onTap="id" />
                 <button text="CBS REALITY" onTap="cbsreality" />
                 <button text="NATIONAL GEOGRAPHIC HD" onTap="nationalgeographichd" />
                 <button text="WILD" onTap="wild" />
-                <button text="BBC EARTH" onTap="bbcearth" />
-                <button text="ANIMAL PLANET HD" onTap="animalplanethd" />
-
+                <button text="BBC EARTH" onTap="bbcearth" />               
         </row>
 
         <row>
-                <button text="VIASAT NATURE HD" onTap="viasatnaturehd" />
+                <button text="ANIMAL PLANET HD" onTap="animalplanethd" />
                 <button text="HISTORY2 HD" onTap="history2hd" />
                 <button text="CRIME INVESTIGATION" onTap="crimeinvestigation" />
                 <button text="ID X" onTap="idx" />
