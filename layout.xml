@@ -10,7 +10,7 @@
 	
          <row>
 		<button color="green" icon="power" onTap="safari" />
-                <button color="black" icon="docclose" onTap="exit" />
+                <button color="black" icon="docclose" onTap="closetab" onHold="quitsafari" />
 	</row>
 	
         <row>
