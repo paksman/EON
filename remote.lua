@@ -21,9 +21,14 @@ actions.safari = function()
 	kb.stroke("cmd", "shift", "s");
 end
 
---@help Exit Safari
-actions.exit = function()
+--@help close_tab
+actions.closetab = function()
 	kb.stroke("cmd", "w");
+end
+
+--@help Quit Safari
+actions.quitsafari = function()
+	kb.stroke("cmd", "q");
 end
 
 --@help home
