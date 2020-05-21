@@ -11,11 +11,11 @@
 - Some channels require pin code, if you have set it to default (1234), just tap on "PIN" button when you are asked to enter the code 
 
 ## Requirements
-- Osx (tested on 10.15.3 but it will work with older versions)
-- Safari (tested on 13.0.5 but it will work with older versions)
+- Osx (tested on 10.15.4 but it will work with older versions)
+- Safari (tested on 13.1 but it will work with older versions)
 - Unified Remote server-client app https://www.unifiedremote.com
-- Keyboard Maestro app (for channel +/- to work)
-- Full HD resolution (1920x1080) (for choosing the right channel from the list)
+- Keyboard Maestro app - for channel +/- to work
+- Full HD (or scaled 4k) resolution - 1920x1080 - for choosing the right channel from the list
 - Channel selection works only in fullscreen mode
 - For video recording to work install movavi screen capture or any other screen capturing software that has predefined shortcuts in this way: start recording = cmd+shift+2; stop recording = cmd+option(alt)+2
 
