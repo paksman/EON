@@ -123,11 +123,10 @@ actions.pin = function()
 	ms.moveto(960,570);
 	os.sleep (50);
         ms.click();
-	kb.press("return");
 	os.sleep (50);
         kb.press("1", "2", "3", "4");
 	os.sleep (50);
-        ms.moveto(960,680);
+        ms.moveto(890,660);
         os.sleep (50);
         ms.click();
 	kb.press("j");
@@ -799,46 +798,13 @@ actions.scifi = function()
         ms.moveto(1920,1080);
 end
 
---@help kanal_FOX_HD
-actions.foxhd = function()
-	   ms.moveto(130,205);
-        os.sleep (500);
-	   ms.vscroll(1000);
-        os.sleep (50);
-        ms.vscroll(-191);
-        ms.click();
-        ms.moveto(1920,1080);
-end
-
---@help kanal_FOX_CRIME_HD
-actions.foxcrimehd = function()
-	   ms.moveto(130,205);
-        os.sleep (500);
-	   ms.vscroll(1000);
-        os.sleep (50);
-        ms.vscroll(-194);
-        ms.click();
-        ms.moveto(1920,1080);
-end
-
---@help kanal_FOX_MOVIES_HD
-actions.foxmovieshd = function()
-	   ms.moveto(130,205);
-        os.sleep (500);
-	   ms.vscroll(1000);
-        os.sleep (50);
-        ms.vscroll(-197);
-        ms.click();
-        ms.moveto(1920,1080);
-end
-
 --@help kanal_HBO
 actions.hbo = function()
 	   ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-201);
+        ms.vscroll(-191);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -849,7 +815,7 @@ actions.hbo2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-204);
+        ms.vscroll(-194);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -860,7 +826,7 @@ actions.hbo3 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-207);
+        ms.vscroll(-198);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -871,7 +837,7 @@ actions.cinemax = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-210);
+        ms.vscroll(-201);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -882,7 +848,7 @@ actions.cinemax2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-214);
+        ms.vscroll(-204);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -893,7 +859,7 @@ actions.shorts = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-217);
+        ms.vscroll(-207);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -904,7 +870,7 @@ actions.novasport = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-220);
+        ms.vscroll(-210);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -915,7 +881,7 @@ actions.sportklub1 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-223);
+        ms.vscroll(-213);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -926,7 +892,7 @@ actions.sportklub2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-226);
+        ms.vscroll(-216);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -937,7 +903,7 @@ actions.sportklub3 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-230);
+        ms.vscroll(-220);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -948,7 +914,7 @@ actions.sportklub4 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-233);
+        ms.vscroll(-223);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -959,7 +925,7 @@ actions.sportklub5 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-236);
+        ms.vscroll(-226);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -970,7 +936,7 @@ actions.sportklub6 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-239);
+        ms.vscroll(-229);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -981,7 +947,7 @@ actions.sportklub7 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-243);
+        ms.vscroll(-233);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -992,7 +958,7 @@ actions.sportklub8 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-246);
+        ms.vscroll(-236);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1003,7 +969,7 @@ actions.sportklub9 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-249);
+        ms.vscroll(-239);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1014,7 +980,7 @@ actions.sportklub10 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-252);
+        ms.vscroll(-242);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1025,7 +991,7 @@ actions.sportklub = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-255);
+        ms.vscroll(-245);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1036,7 +1002,7 @@ actions.sportklubgolf = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-259);
+        ms.vscroll(-249);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1047,7 +1013,7 @@ actions.fightchannel = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-262);
+        ms.vscroll(-252);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1058,7 +1024,7 @@ actions.eurosport1 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-265);
+        ms.vscroll(-255);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1069,7 +1035,7 @@ actions.eurosport2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-268);
+        ms.vscroll(-258);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1080,7 +1046,7 @@ actions.sportklubesports = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-271);
+        ms.vscroll(-261);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1091,7 +1057,7 @@ actions.extreme = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-275);
+        ms.vscroll(-265);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1102,7 +1068,7 @@ actions.motorvision = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-278);
+        ms.vscroll(-268);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1113,7 +1079,7 @@ actions.pikaboo = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-281);
+        ms.vscroll(-271);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1124,7 +1090,7 @@ actions.minimax = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-284);
+        ms.vscroll(-274);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1135,7 +1101,7 @@ actions.nickelodeon = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-287);
+        ms.vscroll(-277);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1146,7 +1112,7 @@ actions.disney = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-291);
+        ms.vscroll(-281);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1157,7 +1123,7 @@ actions.cartoonnetwork = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-294);
+        ms.vscroll(-284);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1168,7 +1134,7 @@ actions.pinkkids = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-297);
+        ms.vscroll(-287);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1179,7 +1145,7 @@ actions.boomerang = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-300);
+        ms.vscroll(-290);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1190,7 +1156,7 @@ actions.nickjr = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-303);
+        ms.vscroll(-293);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1201,7 +1167,7 @@ actions.nickelodeonhd = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-307);
+        ms.vscroll(-297);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1212,7 +1178,7 @@ actions.jimjam = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-310);
+        ms.vscroll(-300);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1223,7 +1189,7 @@ actions.disneyjr = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-313);
+        ms.vscroll(-303);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1234,7 +1200,7 @@ actions.babytv = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-316);
+        ms.vscroll(-306);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1245,7 +1211,7 @@ actions.nationalgeographic = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-319);
+        ms.vscroll(-309);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1256,7 +1222,7 @@ actions.discovery = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-323);
+        ms.vscroll(-313);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1267,7 +1233,7 @@ actions.historyhd = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-326);
+        ms.vscroll(-316);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1278,7 +1244,7 @@ actions.viasatexplore = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-329);
+        ms.vscroll(-319);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1289,7 +1255,7 @@ actions.lr = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-332);
+        ms.vscroll(-322);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1300,7 +1266,7 @@ actions.animalplanet = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-335);
+        ms.vscroll(-325);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1311,7 +1277,7 @@ actions.viasatnature = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-339);
+        ms.vscroll(-329);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1322,7 +1288,7 @@ actions.viasathistory = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-342);
+        ms.vscroll(-332);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1333,7 +1299,7 @@ actions.id = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-345);
+        ms.vscroll(-335);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1344,18 +1310,7 @@ actions.cbsreality = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-348);
-        ms.click();
-        ms.moveto(1920,1080);
-end
-
---@help kanal_NATIONAL_GEOGRAPHIC_HD
-actions.nationalgeographichd = function()
-        ms.moveto(130,205);
-        os.sleep (500);
-	   ms.vscroll(1000);
-        os.sleep (50);
-        ms.vscroll(-351);
+        ms.vscroll(-338);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1366,7 +1321,7 @@ actions.wild = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-355);
+        ms.vscroll(-341);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1377,7 +1332,7 @@ actions.bbcearth = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-358);
+        ms.vscroll(-344);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1388,7 +1343,7 @@ actions.animalplanethd = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-361);
+        ms.vscroll(-347);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1399,7 +1354,7 @@ actions.history2hd = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-364);
+        ms.vscroll(-351);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1410,7 +1365,7 @@ actions.crimeinvestigation = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-367);
+        ms.vscroll(-355);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1421,7 +1376,7 @@ actions.idx = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-370);
+        ms.vscroll(-358);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1432,7 +1387,7 @@ actions.kitchen24hd = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-374);
+        ms.vscroll(-361);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1443,7 +1398,7 @@ actions.tlc = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-377);
+        ms.vscroll(-364);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1454,7 +1409,7 @@ actions.e = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-380);
+        ms.vscroll(-367);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1465,7 +1420,7 @@ actions.fashion = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-383);
+        ms.vscroll(-370);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1476,7 +1431,7 @@ actions.travel = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-386);
+        ms.vscroll(-374);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1487,7 +1442,7 @@ actions.hgtv = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-390);
+        ms.vscroll(-377);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1498,7 +1453,7 @@ actions.woman = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-393);
+        ms.vscroll(-380);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1509,7 +1464,7 @@ actions.drfit = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-396);
+        ms.vscroll(-383);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1520,7 +1475,7 @@ actions.travelhd = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-399);
+        ms.vscroll(-386);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1531,7 +1486,7 @@ actions.tracesports = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-402);
+        ms.vscroll(-390);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1542,7 +1497,7 @@ actions.qyou = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-406);
+        ms.vscroll(-393);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1553,7 +1508,7 @@ actions.outdoor = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-409);
+        ms.vscroll(-396);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1564,7 +1519,7 @@ actions.grand2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-412);
+        ms.vscroll(-399);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1575,7 +1530,7 @@ actions.pinkmusic = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-415);
+        ms.vscroll(-402);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1586,7 +1541,7 @@ actions.cmctv = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-418);
+        ms.vscroll(-406);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1597,7 +1552,7 @@ actions.mtv = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-422);
+        ms.vscroll(-409);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1608,7 +1563,7 @@ actions.vh1 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-425);
+        ms.vscroll(-412);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1619,7 +1574,7 @@ actions.traceurban = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-428);
+        ms.vscroll(-415);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1630,7 +1585,7 @@ actions.mtvrocks = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-431);
+        ms.vscroll(-418);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1641,18 +1596,18 @@ actions.mtvhits = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-434);
+        ms.vscroll(-422);
         ms.click();
         ms.moveto(1920,1080);
 end
 
---@help kanal_MTV_DANCE
-actions.mtvdance = function()
+--@help kanal_MTV_CLUB
+actions.mtvclub = function()
         ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-438);
+        ms.vscroll(-425);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1663,7 +1618,7 @@ actions.classic1 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-441);
+        ms.vscroll(-428);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1674,7 +1629,7 @@ actions.mezzo = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-444);
+        ms.vscroll(-431);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1685,7 +1640,7 @@ actions.mtvlive = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-447);
+        ms.vscroll(-434);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1696,7 +1651,7 @@ actions.iconcerts = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-450);
+        ms.vscroll(-438);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1707,7 +1662,7 @@ actions.cnn = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-454);
+        ms.vscroll(-441);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1718,7 +1673,7 @@ actions.bbcworldnews = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-457);
+        ms.vscroll(-444);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1729,7 +1684,7 @@ actions.rt = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-460);
+        ms.vscroll(-447);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1740,7 +1695,7 @@ actions.euronews = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-463);
+        ms.vscroll(-450);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1751,7 +1706,7 @@ actions.bloomberg = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-466);
+        ms.vscroll(-454);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1762,7 +1717,7 @@ actions.aljazeera = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-470);
+        ms.vscroll(-457);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1773,7 +1728,7 @@ actions.cgtn = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-473);
+        ms.vscroll(-460);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1784,7 +1739,7 @@ actions.rai1 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-476);
+        ms.vscroll(-463);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1795,7 +1750,7 @@ actions.rai2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-479);
+        ms.vscroll(-466);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1806,7 +1761,7 @@ actions.russia1 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-482);
+        ms.vscroll(-470);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1817,7 +1772,7 @@ actions.rtln = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-485);
+        ms.vscroll(-473);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1828,7 +1783,7 @@ actions.dw = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-489);
+        ms.vscroll(-476);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1839,7 +1794,7 @@ actions.tve = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-492);
+        ms.vscroll(-479);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1850,7 +1805,7 @@ actions.tv5monde = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-495);
+        ms.vscroll(-482);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1861,7 +1816,7 @@ actions.dunaworld = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-498);
+        ms.vscroll(-485);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1872,7 +1827,7 @@ actions.m1 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-501);
+        ms.vscroll(-489);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1883,7 +1838,7 @@ actions.m2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-505);
+        ms.vscroll(-492);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1894,7 +1849,7 @@ actions.m5 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-508);
+        ms.vscroll(-495);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1905,7 +1860,7 @@ actions.tvri = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-511);
+        ms.vscroll(-498);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1916,7 +1871,7 @@ actions.most = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-514);
+        ms.vscroll(-501);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1927,7 +1882,7 @@ actions.novosadskatv = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-517);
+        ms.vscroll(-505);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1938,7 +1893,7 @@ actions.kanal9 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-521);
+        ms.vscroll(-508);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1949,7 +1904,7 @@ actions.deltartd = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-524);
+        ms.vscroll(-511);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1960,7 +1915,7 @@ actions.ktv = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-527);
+        ms.vscroll(-514);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1971,7 +1926,7 @@ actions.k23 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-530);
+        ms.vscroll(-517);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1982,7 +1937,7 @@ actions.pannonrtv = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-533);
+        ms.vscroll(-521);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1993,7 +1948,7 @@ actions.tvsubotica = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-537);
+        ms.vscroll(-524);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2004,7 +1959,7 @@ actions.yuecco = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-540);
+        ms.vscroll(-527);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2015,7 +1970,7 @@ actions.tviks = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-543);
+        ms.vscroll(-530);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2026,7 +1981,7 @@ actions.santos = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-546);
+        ms.vscroll(-533);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2037,7 +1992,7 @@ actions.tbn = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-549);
+        ms.vscroll(-537);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2048,7 +2003,7 @@ actions.valjevo = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-553);
+        ms.vscroll(-540);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2059,7 +2014,7 @@ actions.s = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-556);
+        ms.vscroll(-543);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2070,7 +2025,7 @@ actions.kragujevac = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-559);
+        ms.vscroll(-546);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2081,7 +2036,7 @@ actions.tv5uzice = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-562);
+        ms.vscroll(-549);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2092,7 +2047,7 @@ actions.belleamie = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-565);
+        ms.vscroll(-553);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2103,7 +2058,7 @@ actions.tvbanker = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-569);
+        ms.vscroll(-556);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2114,7 +2069,7 @@ actions.nais = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-572);
+        ms.vscroll(-559);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2125,7 +2080,7 @@ actions.zona = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-575);
+        ms.vscroll(-562);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2136,7 +2091,7 @@ actions.leskovac = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-578);
+        ms.vscroll(-565);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2147,7 +2102,7 @@ actions.studiomt = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-581);
+        ms.vscroll(-569);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2158,7 +2113,7 @@ actions.tvk1 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-585);
+        ms.vscroll(-572);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2169,7 +2124,7 @@ actions.novipazar = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-588);
+        ms.vscroll(-575);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2180,7 +2135,7 @@ actions.soskanal = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-591);
+        ms.vscroll(-578);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2191,7 +2146,7 @@ actions.pinkmovies = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-594);
+        ms.vscroll(-581);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2202,7 +2157,7 @@ actions.pinkfilm = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-597);
+        ms.vscroll(-585);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2213,7 +2168,7 @@ actions.pinkhorror = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-601);
+        ms.vscroll(-588);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2224,7 +2179,7 @@ actions.pinkpremium = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-604);
+        ms.vscroll(-591);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2235,7 +2190,7 @@ actions.pinkthriller = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-607);
+        ms.vscroll(-594);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2246,7 +2201,7 @@ actions.pinkcommedy = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-610);
+        ms.vscroll(-597);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2257,7 +2212,7 @@ actions.pinkromance = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-613);
+        ms.vscroll(-601);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2268,7 +2223,7 @@ actions.pinkserije = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-617);
+        ms.vscroll(-604);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2279,7 +2234,7 @@ actions.pinksoap = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-620);
+        ms.vscroll(-607);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2290,7 +2245,7 @@ actions.pinkscifi = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-623);
+        ms.vscroll(-610);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2301,7 +2256,7 @@ actions.pinkcrime = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-626);
+        ms.vscroll(-613);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2312,7 +2267,7 @@ actions.pinkworldcinema = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-629);
+        ms.vscroll(-617);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2323,7 +2278,7 @@ actions.pinkclassic = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-632);
+        ms.vscroll(-620);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2334,7 +2289,7 @@ actions.pinkreality = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-635);
+        ms.vscroll(-623);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2345,7 +2300,7 @@ actions.pinkextra = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-638);
+        ms.vscroll(-626);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2356,7 +2311,7 @@ actions.pinkplus = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-641);
+        ms.vscroll(-629);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2367,7 +2322,7 @@ actions.pinkzabava = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-644);
+        ms.vscroll(-632);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2378,7 +2333,7 @@ actions.pinkworld = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-648);
+        ms.vscroll(-635);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2389,7 +2344,7 @@ actions.pinkshow = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-651);
+        ms.vscroll(-638);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2400,7 +2355,7 @@ actions.pinkstyle = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-654);
+        ms.vscroll(-641);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2411,7 +2366,7 @@ actions.pinkfashion = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-657);
+        ms.vscroll(-644);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2422,7 +2377,7 @@ actions.pinkkuvar = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-660);
+        ms.vscroll(-648);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2433,7 +2388,7 @@ actions.haha = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-663);
+        ms.vscroll(-651);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2444,7 +2399,7 @@ actions.lol = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-666);
+        ms.vscroll(-654);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2455,7 +2410,7 @@ actions.bravo = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-669);
+        ms.vscroll(-657);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2466,7 +2421,7 @@ actions.pinkfolk1 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-672);
+        ms.vscroll(-660);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2477,7 +2432,7 @@ actions.pinkfolk2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-676);
+        ms.vscroll(-663);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2488,7 +2443,7 @@ actions.pinkmusic2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-679);
+        ms.vscroll(-666);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2499,7 +2454,7 @@ actions.pinkhits = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-682);
+        ms.vscroll(-669);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2510,7 +2465,7 @@ actions.pinkhits2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-685);
+        ms.vscroll(-672);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2521,7 +2476,7 @@ actions.pinknroll = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-688);
+        ms.vscroll(-676);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2532,7 +2487,7 @@ actions.pinkkoncert = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-692);
+        ms.vscroll(-679);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2543,7 +2498,7 @@ actions.cityplay = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-695);
+        ms.vscroll(-682);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2554,7 +2509,7 @@ actions.pinksuperkids = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-698);
+        ms.vscroll(-685);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -2565,14 +2520,14 @@ actions.pinkpedia = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-701);
+        ms.vscroll(-688);
         ms.click();
         ms.moveto(1920,1080);
 end
 
 --@help kanal_PRIVATE
 actions.private = function()
-        ms.moveto(130,205);
+        ms.moveto(130,105);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
@@ -2583,7 +2538,7 @@ end
 
 --@help kanal_BRAZZERS
 actions.brazzers = function()
-        ms.moveto(130,350);
+        ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
@@ -2594,7 +2549,7 @@ end
 
 --@help kanal_DUSK
 actions.dusk = function()
-        ms.moveto(130,450);
+        ms.moveto(130,350);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
@@ -2605,7 +2560,7 @@ end
 
 --@help kanal_HUSTLER_TV
 actions.hustlertv = function()
-        ms.moveto(130,590);
+        ms.moveto(130,450);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
@@ -2616,7 +2571,7 @@ end
 
 --@help kanal_DORCEL_TV
 actions.dorceltv = function()
-        ms.moveto(130,730);
+        ms.moveto(130,590);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
@@ -2627,7 +2582,7 @@ end
 
 --@help kanal_HUSTLER_HD
 actions.hustlerhd = function()
-        ms.moveto(130,850);
+        ms.moveto(130,730);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
@@ -2636,9 +2591,9 @@ actions.hustlerhd = function()
         ms.moveto(1920,1080);
 end
 
---@help kanal_SBB_TV
-actions.sbbtv = function()
-        ms.moveto(130,990);
+--@help kanal_PLAYBOY_TV
+actions.playboytv = function()
+        ms.moveto(130,850);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
