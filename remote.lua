@@ -644,24 +644,13 @@ actions.amchd = function()
         ms.moveto(1920,1080);
 end
 
---@help kanal_COMEDY_CENTRAL
-actions.comedycentral = function()
-        ms.moveto(130,205);
-        os.sleep (500);
-	   ms.vscroll(1000);
-        os.sleep (50);
-	   ms.vscroll(-146);
-        ms.click();
-        ms.moveto(1920,1080);
-end
-
 --@help kanal_PINK_FAMILY
 actions.pinkfamily = function()
         ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-	   ms.vscroll(-149);
+	   ms.vscroll(-146);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -672,7 +661,7 @@ actions.pinkaction = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-	   ms.vscroll(-153);
+	   ms.vscroll(-149);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -683,7 +672,7 @@ actions.cinestarcomedy = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-	   ms.vscroll(-156);
+	   ms.vscroll(-153);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -694,18 +683,18 @@ actions.cinestar = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-           ms.vscroll(-159);
+	   ms.vscroll(-156);
         ms.click();
         ms.moveto(1920,1080);
 end
 
 --@help kanal_CINESTAR_FANTASY
 actions.cinestarfantasy = function()
-	   ms.moveto(130,205);
+        ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-162);
+           ms.vscroll(-159);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -716,7 +705,7 @@ actions.cinestaraction = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-165);
+        ms.vscroll(-162);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -727,7 +716,7 @@ actions.cinestarpremiere1 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-169);
+        ms.vscroll(-165);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -738,7 +727,7 @@ actions.cinestarpremiere2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-172);
+        ms.vscroll(-169);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -749,7 +738,7 @@ actions.cinestar2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-175);
+        ms.vscroll(-172);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -760,7 +749,7 @@ actions.pinkwestern = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-178);
+        ms.vscroll(-175);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -771,7 +760,7 @@ actions.axnspin = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-181);
+        ms.vscroll(-178);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -782,7 +771,7 @@ actions.russtv1000 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-184);
+        ms.vscroll(-181);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -793,7 +782,7 @@ actions.scifi = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-188);
+        ms.vscroll(-184);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -804,7 +793,7 @@ actions.hbo = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-191);
+        ms.vscroll(-188);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -815,7 +804,7 @@ actions.hbo2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-194);
+        ms.vscroll(-191);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -826,7 +815,7 @@ actions.hbo3 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-198);
+        ms.vscroll(-194);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -837,7 +826,7 @@ actions.cinemax = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-201);
+        ms.vscroll(-198);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -848,7 +837,7 @@ actions.cinemax2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-204);
+        ms.vscroll(-201);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -859,7 +848,7 @@ actions.shorts = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-207);
+        ms.vscroll(-204);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -870,7 +859,7 @@ actions.novasport = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-210);
+        ms.vscroll(-207);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -881,7 +870,7 @@ actions.sportklub1 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-213);
+        ms.vscroll(-210);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -892,7 +881,7 @@ actions.sportklub2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-216);
+        ms.vscroll(-213);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -903,7 +892,7 @@ actions.sportklub3 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-220);
+        ms.vscroll(-216);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -914,18 +903,18 @@ actions.sportklub4 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-223);
+        ms.vscroll(-220);
         ms.click();
         ms.moveto(1920,1080);
 end
 
 --@help kanal_SPORT_KLUB5
 actions.sportklub5 = function()
-        ms.moveto(130,205);
+	   ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-226);
+        ms.vscroll(-223);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -936,7 +925,7 @@ actions.sportklub6 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-229);
+        ms.vscroll(-226);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -947,7 +936,7 @@ actions.sportklub7 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-233);
+        ms.vscroll(-229);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -958,7 +947,7 @@ actions.sportklub8 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-236);
+        ms.vscroll(-233);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -969,7 +958,7 @@ actions.sportklub9 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-239);
+        ms.vscroll(-236);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -980,7 +969,7 @@ actions.sportklub10 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-242);
+        ms.vscroll(-239);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -991,7 +980,7 @@ actions.sportklub = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-245);
+        ms.vscroll(-242);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1002,7 +991,7 @@ actions.sportklubgolf = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-249);
+        ms.vscroll(-245);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1013,7 +1002,7 @@ actions.fightchannel = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-252);
+        ms.vscroll(-249);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1024,7 +1013,7 @@ actions.eurosport1 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-255);
+        ms.vscroll(-252);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1035,7 +1024,7 @@ actions.eurosport2 = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-258);
+        ms.vscroll(-255);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1046,7 +1035,7 @@ actions.sportklubesports = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-261);
+        ms.vscroll(-258);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1057,7 +1046,7 @@ actions.extreme = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-265);
+        ms.vscroll(-261);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1068,7 +1057,7 @@ actions.motorvision = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-268);
+        ms.vscroll(-265);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1079,7 +1068,7 @@ actions.pikaboo = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-271);
+        ms.vscroll(-268);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1090,7 +1079,7 @@ actions.minimax = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-274);
+        ms.vscroll(-271);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1101,7 +1090,7 @@ actions.nickelodeon = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-277);
+        ms.vscroll(-274);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1112,7 +1101,7 @@ actions.disney = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-281);
+        ms.vscroll(-277);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1123,7 +1112,7 @@ actions.cartoonnetwork = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-284);
+        ms.vscroll(-281);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1134,7 +1123,7 @@ actions.pinkkids = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-287);
+        ms.vscroll(-284);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1145,7 +1134,7 @@ actions.boomerang = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-290);
+        ms.vscroll(-287);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1156,7 +1145,7 @@ actions.nickjr = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-293);
+        ms.vscroll(-290);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1167,18 +1156,18 @@ actions.nickelodeonhd = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-297);
+        ms.vscroll(-293);
         ms.click();
         ms.moveto(1920,1080);
 end
 
---@help kanal_JIM_JAM
-actions.jimjam = function()
+--@help kanal_NICKTOONS
+actions.nicktoons = function()
         ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-300);
+        ms.vscroll(-297);
         ms.click();
         ms.moveto(1920,1080);
 end
@@ -1189,13 +1178,24 @@ actions.disneyjr = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-303);
+        ms.vscroll(-300);
         ms.click();
         ms.moveto(1920,1080);
 end
 
 --@help kanal_BABY_TV
 actions.babytv = function()
+        ms.moveto(130,205);
+        os.sleep (500);
+	   ms.vscroll(1000);
+        os.sleep (50);
+        ms.vscroll(-303);
+        ms.click();
+        ms.moveto(1920,1080);
+end
+
+--@help kanal_JIM_JAM
+actions.jimjam = function()
         ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
