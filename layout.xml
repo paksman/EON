@@ -118,89 +118,89 @@
         <row>
                 <button text="TV1000" onTap="tv1000" />
                 <button text="AMC HD" onTap="amchd" />
-                <button text="COMEDY CENTRAL" onTap="comedycentral" />
                 <button text="PINK FAMILY" onTap="pinkfamily" />
                 <button text="PINK ACTION" onTap="pinkaction" />
+                <button text="CINESTAR COMEDY" onTap="cinestarcomedy" />
         </row>
 </tab>
       <tab text="3">
         <row>
-                <button text="CINESTAR COMEDY" onTap="cinestarcomedy" />
                 <button text="CINESTAR" onTap="cinestar" />
                 <button text="CINESTAR FANTASY" onTap="cinestarfantasy" />
                 <button text="CINESTAR ACTION" onTap="cinestaraction" />
                 <button text="CINESTAR PREMIERE1" onTap="cinestarpremiere1" />
+                <button text="CINESTAR PREMIERE2" onTap="cinestarpremiere2" />
         </row>
 
         <row>
-                <button text="CINESTAR PREMIERE2" onTap="cinestarpremiere2" />
                 <button text="CINESTAR 2" onTap="cinestar2" />
                 <button text="PINK WESTERN" onTap="pinkwestern" />
                 <button text="AXN SPIN" onTap="axnspin" />
                 <button text="RUSS TV1000" onTap="russtv1000" />
+                <button text="SCIFI" onTap="scifi" />
         </row>
 
         <row>
-                <button text="SCIFI" onTap="scifi" />
                 <button text="HBO" onTap="hbo" />
                 <button text="HBO2" onTap="hbo2" />
                 <button text="HBO3" onTap="hbo3" />
                 <button text="CINEMAX" onTap="cinemax" />
+                <button text="CINEMAX2" onTap="cinemax2" />
         </row>
 
         <row>
-                <button text="CINEMAX2" onTap="cinemax2" />
                 <button text="SHORTS" onTap="shorts" />
                 <button text="NOVA SPORT" onTap="novasport" />
                 <button text="SPORT KLUB1" onTap="sportklub1" />
                 <button text="SPORT KLUB2" onTap="sportklub2" />
+                <button text="SPORT KLUB3" onTap="sportklub3" />
         </row>
 
         <row>
-                <button text="SPORT KLUB3" onTap="sportklub3" />
                 <button text="SPORT KLUB4" onTap="sportklub4" />
                 <button text="SPORT KLUB5" onTap="sportklub5" />
                 <button text="SPORT KLUB6" onTap="sportklub6" />
                 <button text="SPORT KLUB7" onTap="sportklub7" />
+                <button text="SPORT KLUB8" onTap="sportklub8" />
         </row>
         </tab>
       <tab text="4">
         <row>
-                <button text="SPORT KLUB8" onTap="sportklub8" />
                 <button text="SPORT KLUB9" onTap="sportklub9" />
                 <button text="SPORT KLUB10" onTap="sportklub10" />
                 <button text="SPORT KLUB" onTap="sportklub" />
                 <button text="SPORT KLUB GOLF" onTap="sportklubgolf" />
+                <button text="FIGHT CHANNEL" onTap="fightchannel" />
         </row>
 
         <row>
-                <button text="FIGHT CHANNEL" onTap="fightchannel" />
                 <button text="EURO SPORT1" onTap="eurosport1" />
                 <button text="EURO SPORT2" onTap="eurosport2" />
                 <button text="SPORT KLUB ESPORTS" onTap="sportklubesports" />
-                <button text="EXTREME" onTap="extreme" />               
+                <button text="EXTREME" onTap="extreme" />
+                <button text="MOTORVISION" onTap="motorvision" />               
         </row>
 
         <row>
-                <button text="MOTORVISION" onTap="motorvision" />
                 <button text="PIKABOO" onTap="pikaboo" />
                 <button text="MINIMAX" onTap="minimax" />
                 <button text="NICKELODEON" onTap="nickelodeon" />
-                <button text="DISNEY" onTap="disney" />               
+                <button text="DISNEY" onTap="disney" />
+                <button text="CARTOON NETWORK" onTap="cartoonnetwork" />               
         </row>
 
         <row>
-                <button text="CARTOON NETWORK" onTap="cartoonnetwork" />
                 <button text="PINK KIDS" onTap="pinkkids" />
                 <button text="BOOMERANG" onTap="boomerang" />
                 <button text="NICK JR" onTap="nickjr" />
-                <button text="NICKELODEON HD" onTap="nickelodeonhd" />               
+                <button text="NICKELODEON HD" onTap="nickelodeonhd" />
+                <button text="NICKTOONS" onTap="nicktoons" />               
         </row>
 
         <row>
-                <button text="JIM JAM" onTap="jimjam" />
                 <button text="DISNEY JUNIOR" onTap="disneyjr" />
                 <button text="BABY TV" onTap="babytv" />
+                <button text="JIM JAM" onTap="jimjam" />
                 <button text="NATIONAL GEOGRAPHIC" onTap="nationalgeographic" />
                 <button text="DISCOVERY" onTap="discovery" />               
         </row>
