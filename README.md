@@ -12,7 +12,7 @@
 
 ## Requirements
 - Osx (tested on 10.15.6 but it will work with older versions)
-- Safari (tested on 13.1.2 but it will work with older versions)
+- Safari (tested on 14.0 but it will work with older versions)
 - Unified Remote server-client app https://www.unifiedremote.com
 - Keyboard Maestro app - for channel +/- to work
 - Full HD (or scaled 4k) resolution - 1920x1080 - for choosing the right channel from the list
