@@ -71,7 +71,7 @@
                 <button text="RTS3" onTap="rts3" />
                 <button text="RTV1" onTap="rtv1" />
                 <button text="RTV2" onTap="rtv2" />
-                <button text="PINK2" onTap="pink2" />
+                <button text="RED TV" onTap="redtv" />
         </row>
 
         <row>
