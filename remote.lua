@@ -349,8 +349,8 @@ actions.rtv2 = function()
         ms.moveto(1920,1080);
 end
 
---@help kanal_PINK2
-actions.pink2 = function()
+--@help kanal_RED_TV
+actions.redtv = function()
         ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
