@@ -226,7 +226,7 @@
         <row>
                 <button text="HISTORY2 HD" onTap="history2hd" />
                 <button text="CRIME INVESTIGATION" onTap="crimeinvestigation" />
-                <button text="ID X" onTap="idx" />
+                <button text="ID HD" onTap="idhd" />
                 <button text="24KITCHEN HD" onTap="kitchen24hd" />
                 <button text="TLC" onTap="tlc" />               
         </row>
@@ -258,10 +258,10 @@
 
         <row>
                 <button text="TRACE URBAN" onTap="traceurban" />
-                <button text="MTV ROCKS" onTap="mtvrocks" />
+                <button text="MTV 90s" onTap="mtv90s" />
                 <button text="MTV HITS" onTap="mtvhits" />
                 <button text="MTV CLUB" onTap="mtvclub" />
-                <button text="CLASSIC1" onTap="classic1" />
+                <button text="MTV 80s" onTap="mtv80s" />
         </row>
 
         <row>
@@ -399,7 +399,7 @@
                 <button text="PINK SUPER KIDS" onTap="pinksuperkids" />
                 <button text="PINK PEDIA" onTap="pinkpedia" />
                 <button text="PRIVATE" onTap="private" />
-                <button text="BRAZZERS" onTap="brazzers" />
+                <button text="DORCEL XXX" onTap="dorcelxxx" />
                 <button text="DUSK" onTap="dusk" />
         </row>
 
