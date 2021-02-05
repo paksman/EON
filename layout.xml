@@ -220,195 +220,196 @@
                 <button text="CBS REALITY" onTap="cbsreality" />
                 <button text="WILD" onTap="wild" />
                 <button text="BBC EARTH" onTap="bbcearth" />
-                <button text="ANIMAL PLANET HD" onTap="animalplanethd" />               
+                <button text="HISTORY2 HD" onTap="history2hd" />
         </row>
 
         <row>
-                <button text="HISTORY2 HD" onTap="history2hd" />
                 <button text="CRIME INVESTIGATION" onTap="crimeinvestigation" />
                 <button text="ID HD" onTap="idhd" />
                 <button text="24KITCHEN HD" onTap="kitchen24hd" />
-                <button text="TLC" onTap="tlc" />               
+                <button text="TLC" onTap="tlc" />
+                <button text="E" onTap="e" />               
         </row>
 
         <row>
-                <button text="E" onTap="e" />
                 <button text="FASHION" onTap="fashion" />
                 <button text="TRAVEL" onTap="travel" />
                 <button text="HGTV" onTap="hgtv" />
                 <button text="WOMAN" onTap="woman" />
+                <button text="DR FIT" onTap="drfit" />
         </row>
 
         <row>
-                <button text="DR FIT" onTap="drfit" />
                 <button text="TRAVEL HD" onTap="travelhd" />
                 <button text="TRACE SPORTS" onTap="tracesports" />
-                <button text="Q YOU" onTap="qyou" />
                 <button text="OUTDOOR" onTap="outdoor" />
+                <button text="GRAND2" onTap="grand2" />
+                <button text="PINK MUSIC" onTap="pinkmusic" />
         </row>
         </tab>
       <tab text="6">
         <row>
-                <button text="GRAND2" onTap="grand2" />
-                <button text="PINK MUSIC" onTap="pinkmusic" />
                 <button text="CMC TV" onTap="cmctv" />
                 <button text="MTV" onTap="mtv" />
                 <button text="VH1" onTap="vh1" />
+                <button text="TRACE URBAN" onTap="traceurban" />
+                <button text="MTV 90s" onTap="mtv90s" />
         </row>
 
         <row>
-                <button text="TRACE URBAN" onTap="traceurban" />
-                <button text="MTV 90s" onTap="mtv90s" />
                 <button text="MTV HITS" onTap="mtvhits" />
                 <button text="MTV CLUB" onTap="mtvclub" />
                 <button text="MTV 80s" onTap="mtv80s" />
+                <button text="MEZZO" onTap="mezzo" />
+                <button text="MTV LIVE" onTap="mtvlive" />
         </row>
 
         <row>
-                <button text="MEZZO" onTap="mezzo" />
-                <button text="MTV LIVE" onTap="mtvlive" />
                 <button text="ICONCERTS" onTap="iconcerts" />
                 <button text="CNN" onTap="cnn" />
                 <button text="BBC WORLD NEWS" onTap="bbcworldnews" />
+                <button text="RT" onTap="rt" />
+                <button text="EURONEWS" onTap="euronews" />
         </row>
 
         <row>
-                <button text="RT" onTap="rt" />
-                <button text="EURONEWS" onTap="euronews" />
                 <button text="BLOOMBERG" onTap="bloomberg" />
                 <button text="ALJAZEERA" onTap="aljazeera" />
                 <button text="CGTN" onTap="cgtn" />
+                <button text="RAI1" onTap="rai1" />
+                <button text="RAI2" onTap="rai2" />
         </row>
 
         <row>
-                <button text="RAI1" onTap="rai1" />
-                <button text="RAI2" onTap="rai2" />
                 <button text="RUSSIA1" onTap="russia1" />
                 <button text="RTL N" onTap="rtln" />
                 <button text="DW" onTap="dw" />
+                <button text="TVE" onTap="tve" />
+                <button text="TV5 MONDE" onTap="tv5monde" />
         </row>
         </tab>
       <tab text="7">
         <row>
-                <button text="TVE" onTap="tve" />
-                <button text="TV5 MONDE" onTap="tv5monde" />
                 <button text="DUNA WORLD" onTap="dunaworld" />
                 <button text="M1" onTap="m1" />
                 <button text="M2" onTap="m2" />
+                <button text="M5" onTap="m5" />
+                <button text="TVRI" onTap="tvri" />
         </row>
 
         <row>
-                <button text="M5" onTap="m5" />
-                <button text="TVRI" onTap="tvri" />
                 <button text="MOST" onTap="most" />
                 <button text="NOVOSADSKA TV" onTap="novosadskatv" />
                 <button text="KANAL9" onTap="kanal9" />
+                <button text="DELTA RTD" onTap="deltartd" />
+                <button text="KTV" onTap="ktv" />
         </row>
 
         <row>
-                <button text="DELTA RTD" onTap="deltartd" />
-                <button text="KTV" onTap="ktv" />
                 <button text="K23" onTap="k23" />
                 <button text="PANNON RTV" onTap="pannonrtv" />
                 <button text="TV SUBOTICA" onTap="tvsubotica" />
+                <button text="YU ECCO" onTap="yuecco" />
+                <button text="TV IKS" onTap="tviks" />
         </row>
 
         <row>
-                <button text="YU ECCO" onTap="yuecco" />
-                <button text="TV IKS" onTap="tviks" />
                 <button text="SANTOS" onTap="santos" />
                 <button text="TBN" onTap="tbn" />
                 <button text="VALJEVO" onTap="valjevo" />
+                <button text="S" onTap="s" />
+                <button text="KRAGUJEVAC" onTap="kragujevac" />
         </row>
 
         <row>
-                <button text="S" onTap="s" />
-                <button text="KRAGUJEVAC" onTap="kragujevac" />
                 <button text="TV5 UŽICE" onTap="tv5uzice" />
                 <button text="BELLE AMIE" onTap="belleamie" />
-                <button text="TV BANKER" onTap="tvbanker" />
+                <button text="NAIS" onTap="nais" />
+                <button text="ZONA" onTap="zona" />
+                <button text="LESKOVAC" onTap="leskovac" />
         </row>
         </tab>
       <tab text="8">
         <row>
-                <button text="NAIS" onTap="nais" />
-                <button text="ZONA" onTap="zona" />
-                <button text="LESKOVAC" onTap="leskovac" />
                 <button text="STUDIO MT" onTap="studiomt" />
                 <button text="TV K1" onTap="tvk1" />
-        </row>
-
-        <row>
                 <button text="NOVI PAZAR" onTap="novipazar" />
                 <button text="SOS KANAL" onTap="soskanal" />
                 <button text="PINK MOVIES" onTap="pinkmovies" />
-                <button text="PINK FILM" onTap="pinkfilm" />
-                <button text="PINK HORROR" onTap="pinkhorror" />
         </row>
 
         <row>
+                <button text="PINK FILM" onTap="pinkfilm" />
+                <button text="PINK HORROR" onTap="pinkhorror" />
                 <button text="PINK PREMIUM" onTap="pinkpremium" />
                 <button text="PINK THRILLER" onTap="pinkthriller" />
                 <button text="PINK COMMEDY" onTap="pinkcommedy" />
-                <button text="PINK ROMANCE" onTap="pinkromance" />
-                <button text="PINK SERIJE" onTap="pinkserije" />
         </row>
 
         <row>
+                <button text="PINK ROMANCE" onTap="pinkromance" />
+                <button text="PINK SERIJE" onTap="pinkserije" />
                 <button text="PINK SOAP" onTap="pinksoap" />
                 <button text="PINK SCIFI" onTap="pinkscifi" />
                 <button text="PINK CRIME" onTap="pinkcrime" />
-                <button text="PINK WORLD CINEMA" onTap="pinkworldcinema" />
-                <button text="PINK CLASSIC" onTap="pinkclassic" />
         </row>
 
         <row>
+                <button text="PINK WORLD CINEMA" onTap="pinkworldcinema" />
+                <button text="PINK CLASSIC" onTap="pinkclassic" />
                 <button text="PINK REALITY" onTap="pinkreality" />
                 <button text="PINK EXTRA" onTap="pinkextra" />
                 <button text="PINK PLUS" onTap="pinkplus" />
+        </row>
+
+        <row>
                 <button text="PINK ZABAVA" onTap="pinkzabava" />
                 <button text="PINK WORLD" onTap="pinkworld" />
+                <button text="PINK SHOW" onTap="pinkshow" />
+                <button text="PINK STYLE" onTap="pinkstyle" />
+                <button text="PINK FASHION" onTap="pinkfashion" />
         </row>
         </tab>
       <tab text="9">
         <row>
-                <button text="PINK SHOW" onTap="pinkshow" />
-                <button text="PINK STYLE" onTap="pinkstyle" />
-                <button text="PINK FASHION" onTap="pinkfashion" />
                 <button text="PINK KUVAR" onTap="pinkkuvar" />
                 <button text="HAHA" onTap="haha" />
-        </row>
-
-        <row>
                 <button text="LOL" onTap="lol" />
                 <button text="BRAVO" onTap="bravo" />
                 <button text="PINK FOLK1" onTap="pinkfolk1" />
-                <button text="PINK FOLK2" onTap="pinkfolk2" />
-                <button text="PINK MUSIC2" onTap="pinkmusic2" />
         </row>
 
         <row>
+                <button text="PINK FOLK2" onTap="pinkfolk2" />
+                <button text="PINK MUSIC2" onTap="pinkmusic2" />
                 <button text="PINK HITS" onTap="pinkhits" />
                 <button text="PINK HITS2" onTap="pinkhits2" />
                 <button text="PINK N ROLL" onTap="pinknroll" />
-                <button text="PINK KONCERT" onTap="pinkkoncert" />
-                <button text="CITY PLAY" onTap="cityplay" />
         </row>
 
         <row>
+                <button text="PINK KONCERT" onTap="pinkkoncert" />
+                <button text="CITY PLAY" onTap="cityplay" />
                 <button text="PINK SUPER KIDS" onTap="pinksuperkids" />
                 <button text="PINK PEDIA" onTap="pinkpedia" />
                 <button text="PRIVATE" onTap="private" />
-                <button text="DORCEL XXX" onTap="dorcelxxx" />
-                <button text="DUSK" onTap="dusk" />
         </row>
 
         <row>
+                <button text="DORCEL XXX" onTap="dorcelxxx" />
+                <button text="DUSK" onTap="dusk" />
                 <button text="HUSTLER TV" onTap="hustlertv" />
                 <button text="DORCEL TV" onTap="dorceltv" />
                 <button text="HUSTLER HD" onTap="hustlerhd" />
+        </row>
+
+        <row>
                 <button text="PLAYBOY TV" onTap="playboytv" />
                 <button text="" />
+                <button text="" />
+                <button text="" />
+                <button text="" />
+
         </row>
 
         </tab>
