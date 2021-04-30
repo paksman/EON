@@ -195,7 +195,7 @@
                 <button text="NICK JR" onTap="nickjr" />
                 <button text="NICKELODEON HD" onTap="nickelodeonhd" />
                 <button text="NICKTOONS" onTap="nicktoons" />
-                <button text="DISNEY JUNIOR" onTap="disneyjr" />               
+                <button text="IDJ KIDS" onTap="idjkids" />               
         </row>
 
         <row>
@@ -310,7 +310,7 @@
                 <button text="PANNON RTV" onTap="pannonrtv" />
                 <button text="TV SUBOTICA" onTap="tvsubotica" />
                 <button text="YU ECCO" onTap="yuecco" />
-                <button text="TV IKS" onTap="tviks" />
+                <button text="TV SOMBOR" onTap="tvsombor" />
         </row>
 
         <row>
