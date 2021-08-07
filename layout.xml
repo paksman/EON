@@ -219,49 +219,51 @@
                 <button text="LR" onTap="lr" />
                 <button text="ANIMAL PLANET" onTap="animalplanet" />
                 <button text="VIASAT NATURE" onTap="viasatnature" />
+                <button text="PLANET EARTH" onTap="planetearth" />
                 <button text="VIASAT HISTORY" onTap="viasathistory" />               
-                <button text="ID" onTap="id" />
         </row>
 
         <row>
+                <button text="ID" onTap="id" />
                 <button text="CBS REALITY" onTap="cbsreality" />
                 <button text="WILD" onTap="wild" />
                 <button text="BBC EARTH" onTap="bbcearth" />
                 <button text="HISTORY2 HD" onTap="history2hd" />
-                <button text="CRIME INVESTIGATION" onTap="crimeinvestigation" />
         </row>
 
         <row>
+                <button text="CRIME INVESTIGATION" onTap="crimeinvestigation" />
                 <button text="ID HD" onTap="idhd" />
                 <button text="24KITCHEN HD" onTap="kitchen24hd" />
                 <button text="TLC" onTap="tlc" />
                 <button text="E" onTap="e" />               
-                <button text="FASHION" onTap="fashion" />
         </row>
 
         <row>
+                <button text="FASHION" onTap="fashion" />
                 <button text="TRAVEL" onTap="travel" />
                 <button text="HGTV" onTap="hgtv" />
                 <button text="WOMAN" onTap="woman" />
                 <button text="DR FIT" onTap="drfit" />
-                <button text="TRAVEL HD" onTap="travelhd" />
         </row>
         </tab>
       <tab text="6">
         <row>
+                <button text="TRAVEL HD" onTap="travelhd" />
                 <button text="TRACE SPORTS" onTap="tracesports" />
-                <button text="OUTDOOR" onTap="outdoor" />
                 <button text="GRAND2" onTap="grand2" />
                 <button text="KCN2 MUSIC" onTap="kcn2music" />
                 <button text="KCN3 SVET PLUS" onTap="kcn3svetplus" />
+
         </row>
 
         <row>
                 <button text="PINK MUSIC" onTap="pinkmusic" />
                 <button text="CMC TV" onTap="cmctv" />
                 <button text="MTV" onTap="mtv" />
-                <button text="VH1" onTap="vh1" />
+                <button text="MTV 00s" onTap="mtv00s" />
                 <button text="TRACE URBAN" onTap="traceurban" />
+
         </row>
 
         <row>
@@ -270,6 +272,7 @@
                 <button text="MTV HITS" onTap="mtvhits" />
                 <button text="MTV CLUB" onTap="mtvclub" />
                 <button text="MTV 80s" onTap="mtv80s" />
+
         </row>
 
         <row>
@@ -278,6 +281,7 @@
                 <button text="ICONCERTS" onTap="iconcerts" />
                 <button text="CNN" onTap="cnn" />
                 <button text="BBC WORLD NEWS" onTap="bbcworldnews" />
+
         </row>
 
         <row>
@@ -286,15 +290,17 @@
                 <button text="BLOOMBERG" onTap="bloomberg" />
                 <button text="ALJAZEERA" onTap="aljazeera" />
                 <button text="CGTN" onTap="cgtn" />
+
         </row>
         </tab>
       <tab text="7">
         <row>
                 <button text="CCTV4" onTap="cctv4" />
                 <button text="RAI1" onTap="rai1" />
-                <button text="RAI2" onTap="rai2" />
+                <button text="MEDIASET ITALIA" onTap="msit" />
                 <button text="RUSSIA1" onTap="russia1" />
                 <button text="RTL N" onTap="rtln" />
+
         </row>
 
         <row>
@@ -303,6 +309,7 @@
                 <button text="TV5 MONDE" onTap="tv5monde" />
                 <button text="DUNA WORLD" onTap="dunaworld" />
                 <button text="M1" onTap="m1" />
+
         </row>
 
         <row>
@@ -311,6 +318,7 @@
                 <button text="M4 SPORT" onTap="m4sport" />
                 <button text="TVRI" onTap="tvri" />
                 <button text="MOST" onTap="most" />
+
         </row>
 
         <row>
@@ -319,6 +327,7 @@
                 <button text="DELTA RTD" onTap="deltartd" />
                 <button text="KTV" onTap="ktv" />
                 <button text="K23" onTap="k23" />
+
         </row>
 
         <row>
@@ -327,6 +336,7 @@
                 <button text="YU ECCO" onTap="yuecco" />
                 <button text="SANTOS" onTap="santos" />
                 <button text="TV SOMBOR" onTap="tvsombor" />
+
         </row>
         </tab>
       <tab text="8">
@@ -336,6 +346,7 @@
                 <button text="VALJEVO PLUS" onTap="valjevoplus" />
                 <button text="MARSH" onTap="marsh" />
                 <button text="S" onTap="s" />
+
         </row>
 
         <row>
@@ -344,6 +355,7 @@
                 <button text="TV5 UŽICE" onTap="tv5uzice" />
                 <button text="BELLE AMIE" onTap="belleamie" />
                 <button text="NTV" onTap="ntv" />
+
         </row>
 
         <row>
@@ -352,6 +364,7 @@
                 <button text="LESKOVAC" onTap="leskovac" />
                 <button text="STUDIO MT" onTap="studiomt" />
                 <button text="TV K1" onTap="tvk1" />
+
         </row>
 
         <row>
@@ -360,6 +373,7 @@
                 <button text="PINK MOVIES" onTap="pinkmovies" />
                 <button text="PINK FILM" onTap="pinkfilm" />
                 <button text="PINK HORROR" onTap="pinkhorror" />
+
         </row>
 
         <row>
@@ -368,6 +382,7 @@
                 <button text="PINK COMMEDY" onTap="pinkcommedy" />
                 <button text="PINK ROMANCE" onTap="pinkromance" />
                 <button text="PINK SERIJE" onTap="pinkserije" />
+
         </row>
         </tab>
       <tab text="9">
@@ -377,6 +392,7 @@
                 <button text="PINK CRIME" onTap="pinkcrime" />
                 <button text="PINK WORLD CINEMA" onTap="pinkworldcinema" />
                 <button text="PINK CLASSIC" onTap="pinkclassic" />
+
         </row>
 
         <row>
@@ -385,6 +401,7 @@
                 <button text="PINK PLUS" onTap="pinkplus" />
                 <button text="PINK ZABAVA" onTap="pinkzabava" />
                 <button text="PINK WORLD" onTap="pinkworld" />
+
         </row>
 
         <row>
@@ -393,6 +410,7 @@
                 <button text="PINK FASHION" onTap="pinkfashion" />
                 <button text="PINK KUVAR" onTap="pinkkuvar" />
                 <button text="HAHA" onTap="haha" />
+
         </row>
 
         <row>
@@ -401,6 +419,7 @@
                 <button text="PINK FOLK1" onTap="pinkfolk1" />
                 <button text="PINK FOLK2" onTap="pinkfolk2" />
                 <button text="PINK MUSIC2" onTap="pinkmusic2" />
+
         </row>
 
         <row>
@@ -409,6 +428,7 @@
                 <button text="PINK N ROLL" onTap="pinknroll" />
                 <button text="PINK KONCERT" onTap="pinkkoncert" />
                 <button text="CITY PLAY" onTap="cityplay" />
+
         </row>
 
         </tab>
@@ -420,6 +440,7 @@
                 <button text="PRIVATE" onTap="private" />
                 <button text="DORCEL XXX" onTap="dorcelxxx" />
                 <button text="DUSK" onTap="dusk" />
+
         </row>
 
         <row>
@@ -428,6 +449,7 @@
                 <button text="HUSTLER HD" onTap="hustlerhd" />
                 <button text="PLAYBOY TV" onTap="playboytv" />
                 <button text="SBB TV" onTap="sbbtv" />
+
         </row>
 
         <row>
