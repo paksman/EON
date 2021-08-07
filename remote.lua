@@ -1417,13 +1417,25 @@ actions.viasatnature = function()
         ms.moveto(1920,1080);
 end
 
+--@help kanal_PLANET_EARTH
+actions.planetearth = function()
+        ms.moveto(130,205);
+        os.sleep (500);
+	   ms.vscroll(1000);
+        os.sleep (50);
+        ms.vscroll(-341);
+        os.sleep (50);
+        ms.click();
+        ms.moveto(1920,1080);
+end
+
 --@help kanal_VIASAT_HISTORY
 actions.viasathistory = function()
         ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-341);
+        ms.vscroll(-344);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1435,7 +1447,7 @@ actions.id = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-344);
+        ms.vscroll(-347);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1447,7 +1459,7 @@ actions.cbsreality = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-347);
+        ms.vscroll(-351);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1459,7 +1471,7 @@ actions.wild = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-351);
+        ms.vscroll(-355);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1471,7 +1483,7 @@ actions.bbcearth = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-355);
+        ms.vscroll(-358);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1483,7 +1495,7 @@ actions.history2hd = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-358);
+        ms.vscroll(-361);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1495,7 +1507,7 @@ actions.crimeinvestigation = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-361);
+        ms.vscroll(-364);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1507,7 +1519,7 @@ actions.idhd = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-364);
+        ms.vscroll(-367);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1519,7 +1531,7 @@ actions.kitchen24hd = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-367);
+        ms.vscroll(-370);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1531,7 +1543,7 @@ actions.tlc = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-370);
+        ms.vscroll(-374);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1543,7 +1555,7 @@ actions.e = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-374);
+        ms.vscroll(-377);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1555,7 +1567,7 @@ actions.fashion = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-377);
+        ms.vscroll(-380);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1567,7 +1579,7 @@ actions.travel = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-380);
+        ms.vscroll(-383);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1579,7 +1591,7 @@ actions.hgtv = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-383);
+        ms.vscroll(-386);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1591,7 +1603,7 @@ actions.woman = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-386);
+        ms.vscroll(-390);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1603,7 +1615,7 @@ actions.drfit = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-390);
+        ms.vscroll(-393);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1615,7 +1627,7 @@ actions.travelhd = function()
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
-        ms.vscroll(-393);
+        ms.vscroll(-396);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
@@ -1623,18 +1635,6 @@ end
 
 --@help kanal_TRACE_SPORTS
 actions.tracesports = function()
-        ms.moveto(130,205);
-        os.sleep (500);
-	   ms.vscroll(1000);
-        os.sleep (50);
-        ms.vscroll(-396);
-        os.sleep (50);
-        ms.click();
-        ms.moveto(1920,1080);
-end
-
---@help kanal_OUTDOOR
-actions.outdoor = function()
         ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
@@ -1717,8 +1717,8 @@ actions.mtv = function()
         ms.moveto(1920,1080);
 end
 
---@help kanal_VH1
-actions.vh1 = function()
+--@help kanal_MTV00S
+actions.mtv00s = function()
         ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
@@ -1945,8 +1945,8 @@ actions.rai1 = function()
         ms.moveto(1920,1080);
 end
 
---@help kanal_RAI2
-actions.rai2 = function()
+--@help kanal_MEDIASET_ITALIA
+actions.msit = function()
         ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
