@@ -102,7 +102,7 @@
         <row>
                 <button text="O KANAL" onTap="okanal" />
                 <button text="NOVA M" onTap="novam" />
-                <button text="ADRIA" onTap="adria" />
+                <button text="VIJESTI" onTap="vijesti" />
                 <button text="SAT" onTap="sat" />
                 <button text="FOX" onTap="fox" />
         </row>
