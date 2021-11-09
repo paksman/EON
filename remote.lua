@@ -8,7 +8,11 @@ end
 
 --@help Video capture
 actions.video = function()
-	kb.stroke("cmd", "shift", "2");
+	kb.stroke("cmd", "alt", "2");
+         os.sleep (500);
+         kb.press("space");
+         os.sleep (500);
+         kb.stroke("cmd", "alt", "2");
 end
 
 --@help Stop Video capture
