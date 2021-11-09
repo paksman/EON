@@ -569,8 +569,8 @@ actions.novam = function()
         ms.moveto(1920,1080);
 end
 
---@help kanal_ADRIA
-actions.adria = function()
+--@help kanal_VIJESTI
+actions.vijesti = function()
         ms.moveto(130,205);
         os.sleep (500);
 	   ms.vscroll(1000);
@@ -2959,11 +2959,13 @@ end
 
 --@help kanal_SBB_TV
 actions.sbbtv = function()
-        ms.moveto(130,970);
+        ms.moveto(130,850);
         os.sleep (500);
 	   ms.vscroll(1000);
         os.sleep (50);
         ms.vscroll(-773);
+        os.sleep (50);
+        ms.moveto(130,970);
         os.sleep (50);
         ms.click();
         ms.moveto(1920,1080);
