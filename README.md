@@ -11,8 +11,8 @@
 - Some channels require pin code, if you have set it to default (1234), just tap on "PIN" button when you are asked to enter the code 
 
 ## Requirements
-- Osx (tested on 12.0.1 but it will work with older versions)
-- Safari (tested on 15.1 but it will work with older versions)
+- Osx (tested on 12.1 but it will work with older versions)
+- Safari (tested on 15.2 but it will work with older versions)
 - Unified Remote server-client app https://www.unifiedremote.com
 - Keyboard Maestro app - for channel +/- to work
 - Full HD (or scaled 4k) resolution - 1920x1080 - for choosing the right channel from the list
